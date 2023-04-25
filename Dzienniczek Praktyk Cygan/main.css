@@ -1,0 +1,98 @@
+ul {
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+li{
+    min-width: 10rem;
+    margin: 1rem;
+   text-align: center; 
+}
+a{
+    display: block;
+    background-color: #ccc; 
+    color: #444;
+    text-decoration: none;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+
+}
+a:hover{
+    color:rgb(255, 128, 10);
+    background-color: #aaa;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+
+    background: rgb(255, 255, 255);
+    
+}
+.container{
+    width: 80%;
+}
+header{
+    text-align: center;
+}
+form{
+    margin: 1rem;
+    border: 3px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+label{
+    
+    flex-basis: 35%;
+    padding: 1rem;
+}
+fieldset{
+    border: 2px solid #000;
+    margin: 1rem;
+    width: 100%;
+    padding: 1rem;
+}
+footer{
+    text-align: center;
+}
+body>*{
+border: 3px solid #000;
+}
+#opiekun>*{
+    
+    margin: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #000;
+    margin: 1rem;
+    padding: 0.5rem;
+
+}
+
+select{
+    margin: 0.5rem;
+    width: 400px;
+}
+
+input[type="submit"], input[type="reset"]{
+    margin: 0.5rem;
+} 
+i{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.hidden{
+    display: none;
+}
